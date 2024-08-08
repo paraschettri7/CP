@@ -1,21 +1,17 @@
-#include <bits/stdc++.h>
-using namespace std;
-int main() {
-	int n;
+    ll n;
     cin>>n;
-    int arr[n];
+    vll v(n);
     for(int i=0;i<n;i++){
-        cin>>arr[i];
+        cin>>v[i];
     }
-    map<int,int> mpp;
+    map<ll,ll> mpp;
      for(int i=0;i<n;i++){
-        mpp[arr[i]]++;
+        mpp[v[i]]++;
     }
-    int number;
-    cin>>number;
-    cout<<mpp[number];
+    // int number;
+    // cin>>number;
+    // cout<<mpp[number];
 
     
 	
 
-}
